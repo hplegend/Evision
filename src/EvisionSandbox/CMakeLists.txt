@@ -2,9 +2,7 @@
 
 #设置cmake最小版本号
 cmake_minimum_required(VERSION 3.13.0)
- 
 
- 
 # Find OpenCV
 find_package(OpenCV REQUIRED)
 # Print some message showing some of them

@@ -1,0 +1,2436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Evision"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\EvisionADCensus\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\Program Files\;CMake Files\..\..\..\..\..\Program Files\CMake\;CMake Files\..\..\..\..\QT\;CMake Files\..\..\..\..\QT\5.13.2\;CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\;CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\;CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\cmake\;CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\cmake\Qt5\;CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\cmake\Qt5Widgets\;CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\cmake\Qt5Gui\;CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\cmake\Qt5Core\;CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\cmake\Qt5UiPlugin\;CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\cmake\Qt5Multimedia\;CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\cmake\Qt5Network\;CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\cmake\Qt5MultimediaWidgets\;CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\cmake\Qt5OpenGL\;CMake Files\EvisionElas\;CMake Files\EvisionSandbox\;CMake Files\EvisionUtils\;CMake Files\EvisionCalibrate\;CMake Files\EvisionDisparity\;CMake Files\EvisionUndistortion\;CMake Files\EvisionTrace\;CMake Files\EvisionCamera\;CMake Files\EvisionParamBridge\;CMake Files\EvisionPnP\;CMake Files\EvisionPolyTracker\;CMake Files\EvisionMonocularCalib\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EvisionADCensus">
+				<Option output="D:/hplegend/codes/evision/Evision/install/bin/Debug/libEvisionADCensus.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionADCensus"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionADCensus"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionADCensus"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionADCensus/./include"/>
+					<Add directory="D:/Program Files/CMake"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/include/opencv"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/core/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/flann/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/imgproc/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/ml/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/photo/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/video/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/imgcodecs/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/shape/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/videoio/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/highgui/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/objdetect/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/superres/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/ts/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/features2d/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/calib3d/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/stitching/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/videostab/include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionADCensus/Makefile&quot;  VERBOSE=1 EvisionADCensus"/>
+					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionADCensus/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionADCensus/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionADCensus/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EvisionADCensus/fast">
+				<Option output="D:/hplegend/codes/evision/Evision/install/bin/Debug/libEvisionADCensus.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionADCensus"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionADCensus"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionADCensus"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionADCensus/./include"/>
+					<Add directory="D:/Program Files/CMake"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/include/opencv"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/core/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/flann/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/imgproc/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/ml/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/photo/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/video/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/imgcodecs/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/shape/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/videoio/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/highgui/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/objdetect/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/superres/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/ts/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/features2d/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/calib3d/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/stitching/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/videostab/include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionADCensus/Makefile&quot;  VERBOSE=1 EvisionADCensus/fast"/>
+					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionADCensus/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionADCensus/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionADCensus/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EvisionElas">
+				<Option output="D:/hplegend/codes/evision/Evision/install/bin/Debug/libEvisionElas.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionElas"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionElas"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionElas"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionElas/./include"/>
+					<Add directory="D:/Program Files/CMake"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/include/opencv"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/core/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/flann/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/imgproc/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/ml/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/photo/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/video/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/imgcodecs/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/shape/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/videoio/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/highgui/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/objdetect/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/superres/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/ts/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/features2d/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/calib3d/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/stitching/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/videostab/include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionElas/Makefile&quot;  VERBOSE=1 EvisionElas"/>
+					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionElas/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionElas/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionElas/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EvisionElas/fast">
+				<Option output="D:/hplegend/codes/evision/Evision/install/bin/Debug/libEvisionElas.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionElas"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionElas"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionElas"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionElas/./include"/>
+					<Add directory="D:/Program Files/CMake"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/include/opencv"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/core/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/flann/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/imgproc/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/ml/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/photo/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/video/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/imgcodecs/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/shape/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/videoio/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/highgui/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/objdetect/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/superres/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/ts/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/features2d/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/calib3d/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/stitching/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/videostab/include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionElas/Makefile&quot;  VERBOSE=1 EvisionElas/fast"/>
+					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionElas/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionElas/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionElas/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EvisionSandbox">
+				<Option output="D:/hplegend/codes/evision/Evision/install/bin/Debug/EvisionSandbox.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionSandbox"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_MULTIMEDIA_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_MULTIMEDIAWIDGETS_LIB"/>
+					<Add option="-DQT_OPENGL_LIB"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionSandbox"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionSandbox"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtCore/5.13.2/QtCore/private"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtCore/5.13.2/QtCore"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtCore/5.13.2"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionSandbox/../EvisionUtils/include"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionSandbox/../EvisionCalibrate/include"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionSandbox/../EvisionDisparity/include"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionSandbox/../EvisionUndistortion/include"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionSandbox/../EvisionTrace/include"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionSandbox/../EvisionCamera/include"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionSandbox/../EvisionParamBridge/include"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionSandbox/../EvisionPolyTracker/include"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionSandbox/../EvisionMonocularCalib/include"/>
+					<Add directory="D:/Program Files/CMake"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/include/opencv"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/core/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/flann/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/imgproc/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/ml/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/photo/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/video/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/imgcodecs/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/shape/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/videoio/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/highgui/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/objdetect/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/superres/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/ts/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/features2d/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/calib3d/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/stitching/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/videostab/include"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtMultimediaWidgets"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtMultimedia"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtWidgets"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtGui"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtANGLE"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtCore"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/./mkspecs/win32-g++"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtNetwork"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtOpenGL"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionSandbox/Makefile&quot;  VERBOSE=1 EvisionSandbox"/>
+					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionSandbox/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionSandbox/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionSandbox/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EvisionSandbox/fast">
+				<Option output="D:/hplegend/codes/evision/Evision/install/bin/Debug/EvisionSandbox.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionSandbox"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_MULTIMEDIA_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_MULTIMEDIAWIDGETS_LIB"/>
+					<Add option="-DQT_OPENGL_LIB"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionSandbox"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionSandbox"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtCore/5.13.2/QtCore/private"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtCore/5.13.2/QtCore"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtCore/5.13.2"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionSandbox/../EvisionUtils/include"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionSandbox/../EvisionCalibrate/include"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionSandbox/../EvisionDisparity/include"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionSandbox/../EvisionUndistortion/include"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionSandbox/../EvisionTrace/include"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionSandbox/../EvisionCamera/include"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionSandbox/../EvisionParamBridge/include"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionSandbox/../EvisionPolyTracker/include"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionSandbox/../EvisionMonocularCalib/include"/>
+					<Add directory="D:/Program Files/CMake"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/include/opencv"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/core/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/flann/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/imgproc/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/ml/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/photo/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/video/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/imgcodecs/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/shape/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/videoio/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/highgui/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/objdetect/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/superres/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/ts/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/features2d/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/calib3d/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/stitching/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/videostab/include"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtMultimediaWidgets"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtMultimedia"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtWidgets"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtGui"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtANGLE"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtCore"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/./mkspecs/win32-g++"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtNetwork"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtOpenGL"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionSandbox/Makefile&quot;  VERBOSE=1 EvisionSandbox/fast"/>
+					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionSandbox/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionSandbox/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionSandbox/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EvisionUtils">
+				<Option output="D:/hplegend/codes/evision/Evision/install/bin/Debug/libEvisionUtils.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionUtils"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionUtils"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionUtils"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionUtils/./include"/>
+					<Add directory="D:/Program Files/CMake"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/include/opencv"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/core/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/flann/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/imgproc/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/ml/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/photo/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/video/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/imgcodecs/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/shape/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/videoio/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/highgui/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/objdetect/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/superres/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/ts/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/features2d/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/calib3d/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/stitching/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/videostab/include"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtWidgets"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtGui"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtANGLE"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtCore"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/./mkspecs/win32-g++"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionUtils/Makefile&quot;  VERBOSE=1 EvisionUtils"/>
+					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionUtils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionUtils/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionUtils/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EvisionUtils/fast">
+				<Option output="D:/hplegend/codes/evision/Evision/install/bin/Debug/libEvisionUtils.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionUtils"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionUtils"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionUtils"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionUtils/./include"/>
+					<Add directory="D:/Program Files/CMake"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/include/opencv"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/core/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/flann/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/imgproc/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/ml/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/photo/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/video/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/imgcodecs/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/shape/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/videoio/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/highgui/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/objdetect/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/superres/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/ts/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/features2d/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/calib3d/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/stitching/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/videostab/include"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtWidgets"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtGui"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtANGLE"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtCore"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/./mkspecs/win32-g++"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionUtils/Makefile&quot;  VERBOSE=1 EvisionUtils/fast"/>
+					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionUtils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionUtils/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionUtils/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EvisionCalibrate">
+				<Option output="D:/hplegend/codes/evision/Evision/install/bin/Debug/libEvisionCalibrate.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionCalibrate"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_MULTIMEDIA_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_MULTIMEDIAWIDGETS_LIB"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionCalibrate"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionCalibrate"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionCalibrate/./include"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionCalibrate/../EvisionUtils/include"/>
+					<Add directory="D:/Program Files/CMake"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/include/opencv"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/core/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/flann/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/imgproc/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/ml/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/photo/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/video/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/imgcodecs/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/shape/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/videoio/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/highgui/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/objdetect/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/superres/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/ts/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/features2d/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/calib3d/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/stitching/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/videostab/include"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtWidgets"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtGui"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtANGLE"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtCore"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/./mkspecs/win32-g++"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtMultimedia"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtNetwork"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtMultimediaWidgets"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionCalibrate/Makefile&quot;  VERBOSE=1 EvisionCalibrate"/>
+					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionCalibrate/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionCalibrate/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionCalibrate/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EvisionCalibrate/fast">
+				<Option output="D:/hplegend/codes/evision/Evision/install/bin/Debug/libEvisionCalibrate.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionCalibrate"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_MULTIMEDIA_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_MULTIMEDIAWIDGETS_LIB"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionCalibrate"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionCalibrate"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionCalibrate/./include"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionCalibrate/../EvisionUtils/include"/>
+					<Add directory="D:/Program Files/CMake"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/include/opencv"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/core/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/flann/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/imgproc/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/ml/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/photo/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/video/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/imgcodecs/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/shape/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/videoio/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/highgui/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/objdetect/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/superres/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/ts/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/features2d/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/calib3d/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/stitching/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/videostab/include"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtWidgets"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtGui"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtANGLE"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtCore"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/./mkspecs/win32-g++"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtMultimedia"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtNetwork"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtMultimediaWidgets"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionCalibrate/Makefile&quot;  VERBOSE=1 EvisionCalibrate/fast"/>
+					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionCalibrate/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionCalibrate/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionCalibrate/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EvisionDisparity">
+				<Option output="D:/hplegend/codes/evision/Evision/install/bin/Debug/libEvisionDisparity.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionDisparity"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_MULTIMEDIA_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_MULTIMEDIAWIDGETS_LIB"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionDisparity"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionDisparity"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionDisparity/./include"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionDisparity/../EvisionUtils/include"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionDisparity/../EvisionADCensus/include"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionDisparity/../EvisionElas/include"/>
+					<Add directory="D:/Program Files/CMake"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/include/opencv"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/core/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/flann/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/imgproc/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/ml/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/photo/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/video/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/imgcodecs/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/shape/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/videoio/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/highgui/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/objdetect/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/superres/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/ts/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/features2d/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/calib3d/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/stitching/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/videostab/include"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtWidgets"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtGui"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtANGLE"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtCore"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/./mkspecs/win32-g++"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtMultimedia"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtNetwork"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtMultimediaWidgets"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionDisparity/Makefile&quot;  VERBOSE=1 EvisionDisparity"/>
+					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionDisparity/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionDisparity/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionDisparity/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EvisionDisparity/fast">
+				<Option output="D:/hplegend/codes/evision/Evision/install/bin/Debug/libEvisionDisparity.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionDisparity"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_MULTIMEDIA_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_MULTIMEDIAWIDGETS_LIB"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionDisparity"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionDisparity"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionDisparity/./include"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionDisparity/../EvisionUtils/include"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionDisparity/../EvisionADCensus/include"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionDisparity/../EvisionElas/include"/>
+					<Add directory="D:/Program Files/CMake"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/include/opencv"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/core/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/flann/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/imgproc/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/ml/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/photo/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/video/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/imgcodecs/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/shape/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/videoio/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/highgui/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/objdetect/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/superres/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/ts/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/features2d/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/calib3d/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/stitching/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/videostab/include"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtWidgets"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtGui"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtANGLE"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtCore"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/./mkspecs/win32-g++"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtMultimedia"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtNetwork"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtMultimediaWidgets"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionDisparity/Makefile&quot;  VERBOSE=1 EvisionDisparity/fast"/>
+					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionDisparity/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionDisparity/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionDisparity/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EvisionUndistortion">
+				<Option output="D:/hplegend/codes/evision/Evision/install/bin/Debug/libEvisionUndistortion.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionUndistortion"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_MULTIMEDIA_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_MULTIMEDIAWIDGETS_LIB"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionUndistortion"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionUndistortion"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionUndistortion/./include"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionUndistortion/../EvisionUtils/include"/>
+					<Add directory="D:/Program Files/CMake"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/include/opencv"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/core/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/flann/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/imgproc/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/ml/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/photo/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/video/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/imgcodecs/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/shape/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/videoio/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/highgui/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/objdetect/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/superres/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/ts/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/features2d/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/calib3d/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/stitching/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/videostab/include"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtWidgets"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtGui"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtANGLE"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtCore"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/./mkspecs/win32-g++"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtMultimedia"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtNetwork"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtMultimediaWidgets"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionUndistortion/Makefile&quot;  VERBOSE=1 EvisionUndistortion"/>
+					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionUndistortion/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionUndistortion/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionUndistortion/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EvisionUndistortion/fast">
+				<Option output="D:/hplegend/codes/evision/Evision/install/bin/Debug/libEvisionUndistortion.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionUndistortion"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_MULTIMEDIA_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_MULTIMEDIAWIDGETS_LIB"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionUndistortion"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionUndistortion"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionUndistortion/./include"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionUndistortion/../EvisionUtils/include"/>
+					<Add directory="D:/Program Files/CMake"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/include/opencv"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/core/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/flann/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/imgproc/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/ml/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/photo/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/video/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/imgcodecs/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/shape/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/videoio/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/highgui/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/objdetect/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/superres/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/ts/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/features2d/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/calib3d/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/stitching/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/videostab/include"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtWidgets"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtGui"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtANGLE"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtCore"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/./mkspecs/win32-g++"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtMultimedia"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtNetwork"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtMultimediaWidgets"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionUndistortion/Makefile&quot;  VERBOSE=1 EvisionUndistortion/fast"/>
+					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionUndistortion/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionUndistortion/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionUndistortion/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EvisionTrace">
+				<Option output="D:/hplegend/codes/evision/Evision/install/bin/Debug/libEvisionTrace.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionTrace"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_MULTIMEDIA_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_MULTIMEDIAWIDGETS_LIB"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionTrace"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionTrace"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionTrace/./include"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionTrace/../EvisionUtils/include"/>
+					<Add directory="D:/Program Files/CMake"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/include/opencv"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/core/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/flann/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/imgproc/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/ml/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/photo/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/video/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/imgcodecs/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/shape/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/videoio/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/highgui/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/objdetect/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/superres/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/ts/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/features2d/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/calib3d/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/stitching/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/videostab/include"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtWidgets"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtGui"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtANGLE"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtCore"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/./mkspecs/win32-g++"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtMultimedia"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtNetwork"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtMultimediaWidgets"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionTrace/Makefile&quot;  VERBOSE=1 EvisionTrace"/>
+					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionTrace/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionTrace/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionTrace/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EvisionTrace/fast">
+				<Option output="D:/hplegend/codes/evision/Evision/install/bin/Debug/libEvisionTrace.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionTrace"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_MULTIMEDIA_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_MULTIMEDIAWIDGETS_LIB"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionTrace"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionTrace"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionTrace/./include"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionTrace/../EvisionUtils/include"/>
+					<Add directory="D:/Program Files/CMake"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/include/opencv"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/core/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/flann/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/imgproc/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/ml/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/photo/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/video/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/imgcodecs/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/shape/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/videoio/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/highgui/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/objdetect/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/superres/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/ts/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/features2d/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/calib3d/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/stitching/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/videostab/include"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtWidgets"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtGui"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtANGLE"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtCore"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/./mkspecs/win32-g++"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtMultimedia"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtNetwork"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtMultimediaWidgets"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionTrace/Makefile&quot;  VERBOSE=1 EvisionTrace/fast"/>
+					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionTrace/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionTrace/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionTrace/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EvisionCamera">
+				<Option output="D:/hplegend/codes/evision/Evision/install/bin/Debug/libEvisionCamera.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionCamera"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_MULTIMEDIA_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_MULTIMEDIAWIDGETS_LIB"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionCamera"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionCamera"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionCamera/./include"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionCamera/../EvisionUtils/include"/>
+					<Add directory="D:/Program Files/CMake"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/include/opencv"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/core/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/flann/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/imgproc/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/ml/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/photo/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/video/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/imgcodecs/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/shape/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/videoio/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/highgui/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/objdetect/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/superres/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/ts/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/features2d/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/calib3d/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/stitching/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/videostab/include"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtWidgets"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtGui"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtANGLE"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtCore"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/./mkspecs/win32-g++"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtMultimedia"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtNetwork"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtMultimediaWidgets"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionCamera/Makefile&quot;  VERBOSE=1 EvisionCamera"/>
+					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionCamera/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionCamera/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionCamera/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EvisionCamera/fast">
+				<Option output="D:/hplegend/codes/evision/Evision/install/bin/Debug/libEvisionCamera.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionCamera"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_MULTIMEDIA_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_MULTIMEDIAWIDGETS_LIB"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionCamera"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionCamera"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionCamera/./include"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionCamera/../EvisionUtils/include"/>
+					<Add directory="D:/Program Files/CMake"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/include/opencv"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/core/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/flann/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/imgproc/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/ml/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/photo/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/video/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/imgcodecs/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/shape/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/videoio/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/highgui/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/objdetect/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/superres/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/ts/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/features2d/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/calib3d/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/stitching/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/videostab/include"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtWidgets"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtGui"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtANGLE"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtCore"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/./mkspecs/win32-g++"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtMultimedia"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtNetwork"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtMultimediaWidgets"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionCamera/Makefile&quot;  VERBOSE=1 EvisionCamera/fast"/>
+					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionCamera/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionCamera/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionCamera/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EvisionParamBridge">
+				<Option output="D:/hplegend/codes/evision/Evision/install/bin/Debug/libEvisionParamBridge.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionParamBridge"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_MULTIMEDIA_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_MULTIMEDIAWIDGETS_LIB"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionParamBridge"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionParamBridge"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionParamBridge/./include"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionParamBridge/../EvisionUtils/include"/>
+					<Add directory="D:/Program Files/CMake"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/include/opencv"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/core/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/flann/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/imgproc/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/ml/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/photo/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/video/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/imgcodecs/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/shape/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/videoio/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/highgui/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/objdetect/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/superres/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/ts/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/features2d/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/calib3d/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/stitching/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/videostab/include"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtWidgets"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtGui"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtANGLE"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtCore"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/./mkspecs/win32-g++"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtMultimedia"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtNetwork"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtMultimediaWidgets"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionParamBridge/Makefile&quot;  VERBOSE=1 EvisionParamBridge"/>
+					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionParamBridge/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionParamBridge/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionParamBridge/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EvisionParamBridge/fast">
+				<Option output="D:/hplegend/codes/evision/Evision/install/bin/Debug/libEvisionParamBridge.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionParamBridge"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_MULTIMEDIA_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_MULTIMEDIAWIDGETS_LIB"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionParamBridge"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionParamBridge"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionParamBridge/./include"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionParamBridge/../EvisionUtils/include"/>
+					<Add directory="D:/Program Files/CMake"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/include/opencv"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/core/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/flann/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/imgproc/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/ml/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/photo/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/video/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/imgcodecs/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/shape/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/videoio/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/highgui/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/objdetect/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/superres/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/ts/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/features2d/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/calib3d/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/stitching/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/videostab/include"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtWidgets"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtGui"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtANGLE"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtCore"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/./mkspecs/win32-g++"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtMultimedia"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtNetwork"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtMultimediaWidgets"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionParamBridge/Makefile&quot;  VERBOSE=1 EvisionParamBridge/fast"/>
+					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionParamBridge/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionParamBridge/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionParamBridge/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EvisionPnP">
+				<Option output="D:/hplegend/codes/evision/Evision/install/bin/Debug/libEvisionPnP.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionPnP"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionPnP"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionPnP"/>
+					<Add directory="D:/Program Files/CMake"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/include/opencv"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/core/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/flann/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/imgproc/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/ml/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/photo/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/video/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/imgcodecs/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/shape/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/videoio/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/highgui/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/objdetect/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/superres/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/ts/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/features2d/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/calib3d/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/stitching/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/videostab/include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionPnP/Makefile&quot;  VERBOSE=1 EvisionPnP"/>
+					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionPnP/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionPnP/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionPnP/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EvisionPnP/fast">
+				<Option output="D:/hplegend/codes/evision/Evision/install/bin/Debug/libEvisionPnP.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionPnP"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionPnP"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionPnP"/>
+					<Add directory="D:/Program Files/CMake"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/include/opencv"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/core/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/flann/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/imgproc/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/ml/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/photo/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/video/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/imgcodecs/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/shape/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/videoio/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/highgui/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/objdetect/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/superres/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/ts/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/features2d/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/calib3d/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/stitching/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/videostab/include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionPnP/Makefile&quot;  VERBOSE=1 EvisionPnP/fast"/>
+					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionPnP/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionPnP/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionPnP/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EvisionPolyTracker">
+				<Option output="D:/hplegend/codes/evision/Evision/install/bin/Debug/libEvisionPolyTracker.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionPolyTracker"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_OPENGL_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionPolyTracker"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionPolyTracker"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionPolyTracker/./include"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionPolyTracker/../EvisionUtils/include"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionPolyTracker/../EvisionPnP"/>
+					<Add directory="D:/Program Files/CMake"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/include/opencv"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/core/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/flann/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/imgproc/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/ml/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/photo/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/video/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/imgcodecs/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/shape/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/videoio/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/highgui/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/objdetect/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/superres/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/ts/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/features2d/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/calib3d/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/stitching/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/videostab/include"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtOpenGL"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtWidgets"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtGui"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtANGLE"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtCore"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/./mkspecs/win32-g++"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionPolyTracker/Makefile&quot;  VERBOSE=1 EvisionPolyTracker"/>
+					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionPolyTracker/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionPolyTracker/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionPolyTracker/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EvisionPolyTracker/fast">
+				<Option output="D:/hplegend/codes/evision/Evision/install/bin/Debug/libEvisionPolyTracker.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionPolyTracker"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_OPENGL_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionPolyTracker"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionPolyTracker"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionPolyTracker/./include"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionPolyTracker/../EvisionUtils/include"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionPolyTracker/../EvisionPnP"/>
+					<Add directory="D:/Program Files/CMake"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/include/opencv"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/core/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/flann/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/imgproc/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/ml/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/photo/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/video/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/imgcodecs/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/shape/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/videoio/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/highgui/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/objdetect/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/superres/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/ts/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/features2d/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/calib3d/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/stitching/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/videostab/include"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtOpenGL"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtWidgets"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtGui"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtANGLE"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtCore"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/./mkspecs/win32-g++"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionPolyTracker/Makefile&quot;  VERBOSE=1 EvisionPolyTracker/fast"/>
+					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionPolyTracker/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionPolyTracker/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionPolyTracker/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EvisionMonocularCalib">
+				<Option output="D:/hplegend/codes/evision/Evision/install/bin/Debug/libEvisionMonocularCalib.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionMonocularCalib"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_MULTIMEDIA_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_MULTIMEDIAWIDGETS_LIB"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionMonocularCalib"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionMonocularCalib"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionMonocularCalib/./include"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionMonocularCalib/../EvisionUtils/include"/>
+					<Add directory="D:/Program Files/CMake"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/include/opencv"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/core/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/flann/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/imgproc/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/ml/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/photo/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/video/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/imgcodecs/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/shape/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/videoio/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/highgui/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/objdetect/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/superres/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/ts/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/features2d/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/calib3d/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/stitching/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/videostab/include"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtWidgets"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtGui"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtANGLE"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtCore"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/./mkspecs/win32-g++"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtMultimedia"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtNetwork"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtMultimediaWidgets"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionMonocularCalib/Makefile&quot;  VERBOSE=1 EvisionMonocularCalib"/>
+					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionMonocularCalib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionMonocularCalib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionMonocularCalib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EvisionMonocularCalib/fast">
+				<Option output="D:/hplegend/codes/evision/Evision/install/bin/Debug/libEvisionMonocularCalib.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionMonocularCalib"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_MULTIMEDIA_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_MULTIMEDIAWIDGETS_LIB"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionMonocularCalib"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionMonocularCalib"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionMonocularCalib/./include"/>
+					<Add directory="D:/hplegend/codes/evision/Evision/src/EvisionMonocularCalib/../EvisionUtils/include"/>
+					<Add directory="D:/Program Files/CMake"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/include/opencv"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/core/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/flann/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/imgproc/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/ml/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/photo/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/video/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/imgcodecs/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/shape/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/videoio/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/highgui/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/objdetect/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/superres/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/ts/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/features2d/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/calib3d/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/stitching/include"/>
+					<Add directory="D:/hplegend/openCv3/opencv/sources/modules/videostab/include"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtWidgets"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtGui"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtANGLE"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtCore"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/./mkspecs/win32-g++"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtMultimedia"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtNetwork"/>
+					<Add directory="D:/hplegend/QT/5.13.2/mingw73_64/include/QtMultimediaWidgets"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionMonocularCalib/Makefile&quot;  VERBOSE=1 EvisionMonocularCalib/fast"/>
+					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionMonocularCalib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionMonocularCalib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionMonocularCalib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionADCensus/EvisionADCensus.cpp">
+			<Option target="EvisionADCensus"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionADCensus/adcensuscv.cpp">
+			<Option target="EvisionADCensus"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionADCensus/adcensuscv.h">
+			<Option target="EvisionADCensus"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionADCensus/aggregation.cpp">
+			<Option target="EvisionADCensus"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionADCensus/aggregation.h">
+			<Option target="EvisionADCensus"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionADCensus/common.h">
+			<Option target="EvisionADCensus"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionADCensus/disparityrefinement.cpp">
+			<Option target="EvisionADCensus"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionADCensus/disparityrefinement.h">
+			<Option target="EvisionADCensus"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionADCensus/imageprocessor.cpp">
+			<Option target="EvisionADCensus"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionADCensus/imageprocessor.h">
+			<Option target="EvisionADCensus"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionADCensus/include/EvisionADCensus.h">
+			<Option target="EvisionADCensus"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionADCensus/libapi.h">
+			<Option target="EvisionADCensus"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionADCensus/scanlineoptimization.cpp">
+			<Option target="EvisionADCensus"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionADCensus/scanlineoptimization.h">
+			<Option target="EvisionADCensus"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionADCensus/stereoprocessor.cpp">
+			<Option target="EvisionADCensus"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionADCensus/stereoprocessor.h">
+			<Option target="EvisionADCensus"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionCalibrate/CalibrateController.cpp">
+			<Option target="EvisionCalibrate"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionCalibrate/CalibrateController.h">
+			<Option target="EvisionCalibrate"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionCalibrate/CalibrateParamEntity.cpp">
+			<Option target="EvisionCalibrate"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionCalibrate/CalibrateParamEntity.h">
+			<Option target="EvisionCalibrate"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionCalibrate/CalibraterView.cpp">
+			<Option target="EvisionCalibrate"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionCalibrate/CalibraterView.h">
+			<Option target="EvisionCalibrate"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionCalibrate/CalibraterView.ui">
+			<Option target="EvisionCalibrate"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionCalibrate/EvisionCalibrateFactory.cpp">
+			<Option target="EvisionCalibrate"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionCalibrate/StereoCalibrate.cpp">
+			<Option target="EvisionCalibrate"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionCalibrate/StereoCalibrate.h">
+			<Option target="EvisionCalibrate"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionCalibrate/include/EvisionCalibrateFactory.h">
+			<Option target="EvisionCalibrate"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionCamera/Camera.ui">
+			<Option target="EvisionCamera"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionCamera/CameraView.cpp">
+			<Option target="EvisionCamera"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionCamera/CameraView.h">
+			<Option target="EvisionCamera"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionCamera/CameraView.ui">
+			<Option target="EvisionCamera"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionCamera/EvisionCameraFactory.cpp">
+			<Option target="EvisionCamera"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionCamera/StereoCameraView.cpp">
+			<Option target="EvisionCamera"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionCamera/StereoCameraView.h">
+			<Option target="EvisionCamera"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionCamera/StereoCameraView.ui">
+			<Option target="EvisionCamera"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionCamera/include/EvisionCameraFactory.h">
+			<Option target="EvisionCamera"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionDisparity/EvisionDisparityFactory.cpp">
+			<Option target="EvisionDisparity"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionDisparity/StereoMatch.cpp">
+			<Option target="EvisionDisparity"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionDisparity/StereoMatch.h">
+			<Option target="EvisionDisparity"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionDisparity/StereoMatchController.cpp">
+			<Option target="EvisionDisparity"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionDisparity/StereoMatchController.h">
+			<Option target="EvisionDisparity"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionDisparity/StereoMatchParamEntity.cpp">
+			<Option target="EvisionDisparity"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionDisparity/StereoMatchParamEntity.h">
+			<Option target="EvisionDisparity"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionDisparity/StereoMatchView.cpp">
+			<Option target="EvisionDisparity"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionDisparity/StereoMatchView.h">
+			<Option target="EvisionDisparity"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionDisparity/StereoMatchView.ui">
+			<Option target="EvisionDisparity"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionDisparity/include/EvisionDisparityFactory.h">
+			<Option target="EvisionDisparity"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionElas/EvisionElas.cpp">
+			<Option target="EvisionElas"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionElas/StereoEfficientLargeScale.cpp">
+			<Option target="EvisionElas"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionElas/StereoEfficientLargeScale.h">
+			<Option target="EvisionElas"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionElas/descriptor.cpp">
+			<Option target="EvisionElas"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionElas/descriptor.h">
+			<Option target="EvisionElas"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionElas/elas.cpp">
+			<Option target="EvisionElas"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionElas/elas.h">
+			<Option target="EvisionElas"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionElas/filter.cpp">
+			<Option target="EvisionElas"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionElas/filter.h">
+			<Option target="EvisionElas"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionElas/image.h">
+			<Option target="EvisionElas"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionElas/include/EvisionElas.h">
+			<Option target="EvisionElas"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionElas/libapi.h">
+			<Option target="EvisionElas"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionElas/matrix.cpp">
+			<Option target="EvisionElas"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionElas/matrix.h">
+			<Option target="EvisionElas"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionElas/timer.h">
+			<Option target="EvisionElas"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionElas/triangle.cpp">
+			<Option target="EvisionElas"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionElas/triangle.h">
+			<Option target="EvisionElas"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionMonocularCalib/EvisionMonocularCalibFactory.cpp">
+			<Option target="EvisionMonocularCalib"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionMonocularCalib/MonocularCalibrate.cpp">
+			<Option target="EvisionMonocularCalib"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionMonocularCalib/MonocularCalibrate.h">
+			<Option target="EvisionMonocularCalib"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionMonocularCalib/MonocularCalibrateController.cpp">
+			<Option target="EvisionMonocularCalib"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionMonocularCalib/MonocularCalibrateController.h">
+			<Option target="EvisionMonocularCalib"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionMonocularCalib/MonocularCalibrateParamEntity.cpp">
+			<Option target="EvisionMonocularCalib"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionMonocularCalib/MonocularCalibrateParamEntity.h">
+			<Option target="EvisionMonocularCalib"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionMonocularCalib/MonocularCalibraterView.cpp">
+			<Option target="EvisionMonocularCalib"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionMonocularCalib/MonocularCalibraterView.h">
+			<Option target="EvisionMonocularCalib"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionMonocularCalib/MonocularCalibraterView.ui">
+			<Option target="EvisionMonocularCalib"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionMonocularCalib/include/EvisionMonocularCalibFactory.h">
+			<Option target="EvisionMonocularCalib"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionParamBridge/CreateCameraParamFile.cpp">
+			<Option target="EvisionParamBridge"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionParamBridge/CreateCameraParamFile.h">
+			<Option target="EvisionParamBridge"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionParamBridge/CreateCameraParamFile.ui">
+			<Option target="EvisionParamBridge"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionParamBridge/EvisionParamBridgeFactory.cpp">
+			<Option target="EvisionParamBridge"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionParamBridge/include/EvisionParamBridgeFactory.h">
+			<Option target="EvisionParamBridge"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionPnP/CsvReader.cpp">
+			<Option target="EvisionPnP"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionPnP/CsvReader.h">
+			<Option target="EvisionPnP"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionPnP/CsvWriter.cpp">
+			<Option target="EvisionPnP"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionPnP/CsvWriter.h">
+			<Option target="EvisionPnP"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionPnP/Mesh.cpp">
+			<Option target="EvisionPnP"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionPnP/Mesh.h">
+			<Option target="EvisionPnP"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionPnP/Model.cpp">
+			<Option target="EvisionPnP"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionPnP/Model.h">
+			<Option target="EvisionPnP"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionPnP/ModelRegistration.cpp">
+			<Option target="EvisionPnP"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionPnP/ModelRegistration.h">
+			<Option target="EvisionPnP"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionPnP/PnPProblem.cpp">
+			<Option target="EvisionPnP"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionPnP/PnPProblem.h">
+			<Option target="EvisionPnP"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionPnP/RobustMatcher.cpp">
+			<Option target="EvisionPnP"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionPnP/RobustMatcher.h">
+			<Option target="EvisionPnP"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionPnP/Utils.cpp">
+			<Option target="EvisionPnP"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionPnP/Utils.h">
+			<Option target="EvisionPnP"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionPolyTracker/CreateCubePoly.cpp">
+			<Option target="EvisionPolyTracker"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionPolyTracker/CreateCubePoly.h">
+			<Option target="EvisionPolyTracker"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionPolyTracker/CreateCubePoly.ui">
+			<Option target="EvisionPolyTracker"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionPolyTracker/EvisionPolyTracker.cpp">
+			<Option target="EvisionPolyTracker"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionPolyTracker/EvisionPolyTracker.h">
+			<Option target="EvisionPolyTracker"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionPolyTracker/EvisionPolyTracker.qrc">
+			<Option target="EvisionPolyTracker"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionPolyTracker/EvisionPolyTracker.ui">
+			<Option target="EvisionPolyTracker"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionPolyTracker/EvisionPolyTrackerFactory.cpp">
+			<Option target="EvisionPolyTracker"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionPolyTracker/FeatureDetection.cpp">
+			<Option target="EvisionPolyTracker"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionPolyTracker/FeatureDetection.h">
+			<Option target="EvisionPolyTracker"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionPolyTracker/FeatureDetection.ui">
+			<Option target="EvisionPolyTracker"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionPolyTracker/TextureTrackingParams.cpp">
+			<Option target="EvisionPolyTracker"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionPolyTracker/TextureTrackingParams.h">
+			<Option target="EvisionPolyTracker"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionPolyTracker/TextureTrackingParams.ui">
+			<Option target="EvisionPolyTracker"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionPolyTracker/TrackerGLWidget.cpp">
+			<Option target="EvisionPolyTracker"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionPolyTracker/TrackerGLWidget.h">
+			<Option target="EvisionPolyTracker"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionPolyTracker/include/EvisionPolyTrackerFactory.h">
+			<Option target="EvisionPolyTracker"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionPolyTracker/logo.cpp">
+			<Option target="EvisionPolyTracker"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionPolyTracker/logo.h">
+			<Option target="EvisionPolyTracker"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionSandbox/Evision.qrc">
+			<Option target="EvisionSandbox"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionSandbox/Evision.ui">
+			<Option target="EvisionSandbox"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionSandbox/EvisionParamEntity.cpp">
+			<Option target="EvisionSandbox"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionSandbox/EvisionParamEntity.h">
+			<Option target="EvisionSandbox"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionSandbox/EvisionView.cpp">
+			<Option target="EvisionSandbox"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionSandbox/EvisionView.h">
+			<Option target="EvisionSandbox"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionSandbox/LogView.cpp">
+			<Option target="EvisionSandbox"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionSandbox/LogView.h">
+			<Option target="EvisionSandbox"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionSandbox/LogView.ui">
+			<Option target="EvisionSandbox"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionSandbox/StdoutRedirector.cpp">
+			<Option target="EvisionSandbox"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionSandbox/StdoutRedirector.h">
+			<Option target="EvisionSandbox"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionSandbox/WatchImageView.cpp">
+			<Option target="EvisionSandbox"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionSandbox/WatchImageView.h">
+			<Option target="EvisionSandbox"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionSandbox/WatchImageView.ui">
+			<Option target="EvisionSandbox"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionSandbox/main.cpp">
+			<Option target="EvisionSandbox"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionTrace/EvisionTraceFactory.cpp">
+			<Option target="EvisionTrace"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionTrace/TraceGraphicsView.cpp">
+			<Option target="EvisionTrace"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionTrace/TraceGraphicsView.h">
+			<Option target="EvisionTrace"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionTrace/TraceView.cpp">
+			<Option target="EvisionTrace"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionTrace/TraceView.h">
+			<Option target="EvisionTrace"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionTrace/TraceView.ui">
+			<Option target="EvisionTrace"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionTrace/include/EvisionTraceFactory.h">
+			<Option target="EvisionTrace"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionUndistortion/EvisionRectify.ui">
+			<Option target="EvisionUndistortion"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionUndistortion/EvisionRectifyView.cpp">
+			<Option target="EvisionUndistortion"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionUndistortion/EvisionRectifyView.h">
+			<Option target="EvisionUndistortion"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionUndistortion/EvisionUndistortionFactory.cpp">
+			<Option target="EvisionUndistortion"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionUndistortion/include/EvisionUndistortionFactory.h">
+			<Option target="EvisionUndistortion"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionUndistortion/rectify.cpp">
+			<Option target="EvisionUndistortion"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionUndistortion/rectify.h">
+			<Option target="EvisionUndistortion"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionUtils/EvisionUtils.cpp">
+			<Option target="EvisionUtils"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionUtils/include/EvisionUtils.h">
+			<Option target="EvisionUtils"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionCalibrate/include/moc_EvisionCalibrateFactory.cpp">
+			<Option target="EvisionCalibrate"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionCalibrate/include/moc_EvisionCalibrateFactory.cpp.rule">
+			<Option target="EvisionCalibrate"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionCalibrate/moc_CalibrateController.cpp">
+			<Option target="EvisionCalibrate"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionCalibrate/moc_CalibrateController.cpp.rule">
+			<Option target="EvisionCalibrate"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionCalibrate/moc_CalibrateParamEntity.cpp">
+			<Option target="EvisionCalibrate"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionCalibrate/moc_CalibrateParamEntity.cpp.rule">
+			<Option target="EvisionCalibrate"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionCalibrate/moc_CalibraterView.cpp">
+			<Option target="EvisionCalibrate"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionCalibrate/moc_CalibraterView.cpp.rule">
+			<Option target="EvisionCalibrate"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionCalibrate/moc_StereoCalibrate.cpp">
+			<Option target="EvisionCalibrate"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionCalibrate/moc_StereoCalibrate.cpp.rule">
+			<Option target="EvisionCalibrate"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionCalibrate/ui_CalibraterView.h">
+			<Option target="EvisionCalibrate"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionCamera/include/moc_EvisionCameraFactory.cpp">
+			<Option target="EvisionCamera"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionCamera/include/moc_EvisionCameraFactory.cpp.rule">
+			<Option target="EvisionCamera"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionCamera/moc_CameraView.cpp">
+			<Option target="EvisionCamera"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionCamera/moc_CameraView.cpp.rule">
+			<Option target="EvisionCamera"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionCamera/moc_StereoCameraView.cpp">
+			<Option target="EvisionCamera"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionCamera/moc_StereoCameraView.cpp.rule">
+			<Option target="EvisionCamera"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionCamera/ui_Camera.h">
+			<Option target="EvisionCamera"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionCamera/ui_CameraView.h">
+			<Option target="EvisionCamera"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionCamera/ui_StereoCameraView.h">
+			<Option target="EvisionCamera"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionDisparity/include/moc_EvisionDisparityFactory.cpp">
+			<Option target="EvisionDisparity"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionDisparity/include/moc_EvisionDisparityFactory.cpp.rule">
+			<Option target="EvisionDisparity"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionDisparity/moc_StereoMatch.cpp">
+			<Option target="EvisionDisparity"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionDisparity/moc_StereoMatch.cpp.rule">
+			<Option target="EvisionDisparity"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionDisparity/moc_StereoMatchController.cpp">
+			<Option target="EvisionDisparity"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionDisparity/moc_StereoMatchController.cpp.rule">
+			<Option target="EvisionDisparity"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionDisparity/moc_StereoMatchParamEntity.cpp">
+			<Option target="EvisionDisparity"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionDisparity/moc_StereoMatchParamEntity.cpp.rule">
+			<Option target="EvisionDisparity"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionDisparity/moc_StereoMatchView.cpp">
+			<Option target="EvisionDisparity"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionDisparity/moc_StereoMatchView.cpp.rule">
+			<Option target="EvisionDisparity"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionDisparity/ui_StereoMatchView.h">
+			<Option target="EvisionDisparity"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionMonocularCalib/include/moc_EvisionMonocularCalibFactory.cpp">
+			<Option target="EvisionMonocularCalib"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionMonocularCalib/include/moc_EvisionMonocularCalibFactory.cpp.rule">
+			<Option target="EvisionMonocularCalib"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionMonocularCalib/moc_MonocularCalibrate.cpp">
+			<Option target="EvisionMonocularCalib"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionMonocularCalib/moc_MonocularCalibrate.cpp.rule">
+			<Option target="EvisionMonocularCalib"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionMonocularCalib/moc_MonocularCalibrateController.cpp">
+			<Option target="EvisionMonocularCalib"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionMonocularCalib/moc_MonocularCalibrateController.cpp.rule">
+			<Option target="EvisionMonocularCalib"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionMonocularCalib/moc_MonocularCalibrateParamEntity.cpp">
+			<Option target="EvisionMonocularCalib"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionMonocularCalib/moc_MonocularCalibrateParamEntity.cpp.rule">
+			<Option target="EvisionMonocularCalib"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionMonocularCalib/moc_MonocularCalibraterView.cpp">
+			<Option target="EvisionMonocularCalib"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionMonocularCalib/moc_MonocularCalibraterView.cpp.rule">
+			<Option target="EvisionMonocularCalib"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionMonocularCalib/ui_MonocularCalibraterView.h">
+			<Option target="EvisionMonocularCalib"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionParamBridge/include/moc_EvisionParamBridgeFactory.cpp">
+			<Option target="EvisionParamBridge"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionParamBridge/include/moc_EvisionParamBridgeFactory.cpp.rule">
+			<Option target="EvisionParamBridge"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionParamBridge/moc_CreateCameraParamFile.cpp">
+			<Option target="EvisionParamBridge"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionParamBridge/moc_CreateCameraParamFile.cpp.rule">
+			<Option target="EvisionParamBridge"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionParamBridge/ui_CreateCameraParamFile.h">
+			<Option target="EvisionParamBridge"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionPolyTracker/include/moc_EvisionPolyTrackerFactory.cpp">
+			<Option target="EvisionPolyTracker"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionPolyTracker/include/moc_EvisionPolyTrackerFactory.cpp.rule">
+			<Option target="EvisionPolyTracker"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionPolyTracker/moc_CreateCubePoly.cpp">
+			<Option target="EvisionPolyTracker"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionPolyTracker/moc_CreateCubePoly.cpp.rule">
+			<Option target="EvisionPolyTracker"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionPolyTracker/moc_EvisionPolyTracker.cpp">
+			<Option target="EvisionPolyTracker"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionPolyTracker/moc_EvisionPolyTracker.cpp.rule">
+			<Option target="EvisionPolyTracker"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionPolyTracker/moc_FeatureDetection.cpp">
+			<Option target="EvisionPolyTracker"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionPolyTracker/moc_FeatureDetection.cpp.rule">
+			<Option target="EvisionPolyTracker"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionPolyTracker/moc_TextureTrackingParams.cpp">
+			<Option target="EvisionPolyTracker"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionPolyTracker/moc_TextureTrackingParams.cpp.rule">
+			<Option target="EvisionPolyTracker"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionPolyTracker/moc_TrackerGLWidget.cpp">
+			<Option target="EvisionPolyTracker"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionPolyTracker/moc_TrackerGLWidget.cpp.rule">
+			<Option target="EvisionPolyTracker"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionPolyTracker/moc_logo.cpp">
+			<Option target="EvisionPolyTracker"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionPolyTracker/moc_logo.cpp.rule">
+			<Option target="EvisionPolyTracker"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionPolyTracker/qrc_EvisionPolyTracker.cpp">
+			<Option target="EvisionPolyTracker"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionPolyTracker/ui_CreateCubePoly.h">
+			<Option target="EvisionPolyTracker"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionPolyTracker/ui_EvisionPolyTracker.h">
+			<Option target="EvisionPolyTracker"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionPolyTracker/ui_FeatureDetection.h">
+			<Option target="EvisionPolyTracker"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionPolyTracker/ui_TextureTrackingParams.h">
+			<Option target="EvisionPolyTracker"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionSandbox/moc_EvisionParamEntity.cpp">
+			<Option target="EvisionSandbox"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionSandbox/moc_EvisionParamEntity.cpp.rule">
+			<Option target="EvisionSandbox"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionSandbox/moc_EvisionView.cpp">
+			<Option target="EvisionSandbox"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionSandbox/moc_EvisionView.cpp.rule">
+			<Option target="EvisionSandbox"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionSandbox/moc_LogView.cpp">
+			<Option target="EvisionSandbox"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionSandbox/moc_LogView.cpp.rule">
+			<Option target="EvisionSandbox"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionSandbox/moc_StdoutRedirector.cpp">
+			<Option target="EvisionSandbox"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionSandbox/moc_StdoutRedirector.cpp.rule">
+			<Option target="EvisionSandbox"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionSandbox/moc_WatchImageView.cpp">
+			<Option target="EvisionSandbox"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionSandbox/moc_WatchImageView.cpp.rule">
+			<Option target="EvisionSandbox"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionSandbox/qrc_Evision.cpp">
+			<Option target="EvisionSandbox"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionSandbox/ui_Evision.h">
+			<Option target="EvisionSandbox"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionSandbox/ui_LogView.h">
+			<Option target="EvisionSandbox"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionSandbox/ui_WatchImageView.h">
+			<Option target="EvisionSandbox"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionTrace/include/moc_EvisionTraceFactory.cpp">
+			<Option target="EvisionTrace"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionTrace/include/moc_EvisionTraceFactory.cpp.rule">
+			<Option target="EvisionTrace"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionTrace/moc_TraceGraphicsView.cpp">
+			<Option target="EvisionTrace"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionTrace/moc_TraceGraphicsView.cpp.rule">
+			<Option target="EvisionTrace"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionTrace/moc_TraceView.cpp">
+			<Option target="EvisionTrace"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionTrace/moc_TraceView.cpp.rule">
+			<Option target="EvisionTrace"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionTrace/ui_TraceView.h">
+			<Option target="EvisionTrace"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionUndistortion/include/moc_EvisionUndistortionFactory.cpp">
+			<Option target="EvisionUndistortion"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionUndistortion/include/moc_EvisionUndistortionFactory.cpp.rule">
+			<Option target="EvisionUndistortion"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionUndistortion/moc_EvisionRectifyView.cpp">
+			<Option target="EvisionUndistortion"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionUndistortion/moc_EvisionRectifyView.cpp.rule">
+			<Option target="EvisionUndistortion"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionUndistortion/moc_rectify.cpp">
+			<Option target="EvisionUndistortion"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionUndistortion/moc_rectify.cpp.rule">
+			<Option target="EvisionUndistortion"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionUndistortion/ui_EvisionRectify.h">
+			<Option target="EvisionUndistortion"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionUtils/include/moc_EvisionUtils.cpp">
+			<Option target="EvisionUtils"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/cmake-build-debug-mingw/EvisionUtils/include/moc_EvisionUtils.cpp.rule">
+			<Option target="EvisionUtils"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionADCensus/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\EvisionADCensus\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/../../../../../Program Files/CMake/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Program Files\CMake\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/../../../../../Program Files/CMake/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Program Files\CMake\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/../../../../../Program Files/CMake/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\Program Files\CMake\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/../../../../QT/5.13.2/mingw73_64/lib/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/../../../../QT/5.13.2/mingw73_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/../../../../QT/5.13.2/mingw73_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/../../../../QT/5.13.2/mingw73_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/../../../../QT/5.13.2/mingw73_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/../../../../QT/5.13.2/mingw73_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/../../../../QT/5.13.2/mingw73_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/../../../../QT/5.13.2/mingw73_64/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/../../../../QT/5.13.2/mingw73_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/../../../../QT/5.13.2/mingw73_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/../../../../QT/5.13.2/mingw73_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/../../../../QT/5.13.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/../../../../QT/5.13.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/../../../../QT/5.13.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/../../../../QT/5.13.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/../../../../QT/5.13.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/../../../../QT/5.13.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/../../../../QT/5.13.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/../../../../QT/5.13.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/../../../../QT/5.13.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/../../../../QT/5.13.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/../../../../QT/5.13.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/../../../../QT/5.13.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/../../../../QT/5.13.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/../../../../QT/5.13.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/../../../../QT/5.13.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/../../../../QT/5.13.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/../../../../QT/5.13.2/mingw73_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/../../../../QT/5.13.2/mingw73_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/../../../../QT/5.13.2/mingw73_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/../../../../QT/5.13.2/mingw73_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/../../../../QT/5.13.2/mingw73_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/../../../../QT/5.13.2/mingw73_64/lib/cmake/Qt5UiPlugin/Qt5UiPluginConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\cmake\Qt5UiPlugin\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/../../../../QT/5.13.2/mingw73_64/lib/cmake/Qt5UiPlugin/Qt5UiPluginConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\cmake\Qt5UiPlugin\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/../../../../QT/5.13.2/mingw73_64/lib/cmake/Qt5Multimedia/Qt5MultimediaConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/../../../../QT/5.13.2/mingw73_64/lib/cmake/Qt5Multimedia/Qt5MultimediaConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/../../../../QT/5.13.2/mingw73_64/lib/cmake/Qt5Multimedia/Qt5Multimedia_AudioCaptureServicePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/../../../../QT/5.13.2/mingw73_64/lib/cmake/Qt5Multimedia/Qt5Multimedia_DSServicePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/../../../../QT/5.13.2/mingw73_64/lib/cmake/Qt5Multimedia/Qt5Multimedia_QM3uPlaylistPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/../../../../QT/5.13.2/mingw73_64/lib/cmake/Qt5Multimedia/Qt5Multimedia_QWindowsAudioPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/../../../../QT/5.13.2/mingw73_64/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/../../../../QT/5.13.2/mingw73_64/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/../../../../QT/5.13.2/mingw73_64/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/../../../../QT/5.13.2/mingw73_64/lib/cmake/Qt5MultimediaWidgets/Qt5MultimediaWidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\cmake\Qt5MultimediaWidgets\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/../../../../QT/5.13.2/mingw73_64/lib/cmake/Qt5MultimediaWidgets/Qt5MultimediaWidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\cmake\Qt5MultimediaWidgets\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/../../../../QT/5.13.2/mingw73_64/lib/cmake/Qt5OpenGL/Qt5OpenGLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\cmake\Qt5OpenGL\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/../../../../QT/5.13.2/mingw73_64/lib/cmake/Qt5OpenGL/Qt5OpenGLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\QT\5.13.2\mingw73_64\lib\cmake\Qt5OpenGL\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionElas/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\EvisionElas\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionSandbox/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\EvisionSandbox\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionSandbox/Evision.qrc">
+			<Option virtualFolder="CMake Files\EvisionSandbox\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionUtils/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\EvisionUtils\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionCalibrate/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\EvisionCalibrate\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionDisparity/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\EvisionDisparity\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionUndistortion/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\EvisionUndistortion\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionTrace/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\EvisionTrace\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionCamera/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\EvisionCamera\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionParamBridge/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\EvisionParamBridge\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionPnP/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\EvisionPnP\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionPolyTracker/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\EvisionPolyTracker\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionPolyTracker/EvisionPolyTracker.qrc">
+			<Option virtualFolder="CMake Files\EvisionPolyTracker\"/>
+		</Unit>
+		<Unit filename="D:/hplegend/codes/evision/Evision/src/EvisionMonocularCalib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\EvisionMonocularCalib\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

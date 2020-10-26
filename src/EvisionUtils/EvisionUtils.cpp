@@ -25,7 +25,7 @@ std::string EvisionUtils::getCurrentPath()
 /*
  * 路径整理
  */
-std::string EvisionUtils::pathPurify(std::string& src)
+std::string EvisionUtils::pathPurify(const std::string& src)
 {
 	QString str1 = QString::fromStdString(src);
 	QString str2 = str1.replace(QRegExp("\\\\"), "/");
