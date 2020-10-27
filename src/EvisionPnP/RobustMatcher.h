@@ -14,7 +14,7 @@
 #include <opencv2/highgui/highgui.hpp>
 #include <opencv2/features2d/features2d.hpp>
 
-class _declspec(dllexport) RobustMatcher {
+class  RobustMatcher {
 public:
     RobustMatcher() : detector_(), extractor_(), matcher_(),
         ratio_(0.8f), training_img_(), img_matching_()

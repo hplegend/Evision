@@ -11,7 +11,7 @@
 #include <iostream>
 #include <opencv2/core.hpp>
 
-class _declspec(dllexport) ModelRegistration
+class ModelRegistration
 {
 public:
     ModelRegistration();

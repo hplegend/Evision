@@ -55,7 +55,7 @@ private:
 //                OBJECT MESH CLASS                    //
 // --------------------------------------------------- //
 
-class _declspec(dllexport) Mesh
+class Mesh
 {
 public:
 

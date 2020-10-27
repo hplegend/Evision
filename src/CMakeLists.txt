@@ -9,8 +9,8 @@ project(Evision CXX)
 SET_PROPERTY(GLOBAL PROPERTY USE_FOLDERS ON)
 # 重命名CMake items 筛选器的名字,默认名为:CMakePredefinedTargets
 set_property(GLOBAL PROPERTY PREDEFINED_TARGETS_FOLDER "_CMakeTargets")
-#set path
-set(OpenCV_DIR "D:/Libraries/OpenCV/4.1.2/build_vc16_withcuda/install")
+#set path 一定要到include,lib,dll的公用目录，否则就会报错(也就是说，连接到include 或者，或者都不行)。
+set(OpenCV_DIR "D:\\hplegend\\OpenCV4\\compileOutput")
 set(Qt5_DIR "D:\\hplegend\\QT\\5.13.2\\mingw73_64\\")
 SET(CMAKE_PREFIX_PATH "D:\\hplegend\\QT\\5.13.2\\mingw73_64\\")
 add_compile_options(-msse4.1)

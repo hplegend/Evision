@@ -38,7 +38,11 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_RELEASE ${PROJECT_SOURCE_DIR}/../install/bin/
 # set_target_properties(${TARGET_NAME} PROPERTIES DEBUG_POSTFIX "_d")
 
 #生成动态链接库
-ADD_LIBRARY(EvisionADCensus SHARED ${SRC_FILES} ${HEAD_FILES} ${INCLUDE_FILES})
+#ADD_LIBRARY(EvisionADCensus SHARED ${SRC_FILES} ${HEAD_FILES} ${INCLUDE_FILES})
+
+
+#生成动态链接库
+ADD_LIBRARY(EvisionADCensus STATIC ${SRC_FILES} ${HEAD_FILES} ${INCLUDE_FILES})
 
 # Link your application with OpenCV libraries
 target_link_libraries(EvisionADCensus ${OpenCV_LIBS})

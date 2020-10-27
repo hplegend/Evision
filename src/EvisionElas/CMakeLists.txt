@@ -36,7 +36,9 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_DEBUG ${PROJECT_SOURCE_DIR}/../install/bin/De
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_RELEASE ${PROJECT_SOURCE_DIR}/../install/bin/Release)
 
 #生成动态链接库
-ADD_LIBRARY(EvisionElas SHARED ${SRC_FILES} ${HEAD_FILES} ${INCLUDE_FILES})
+#ADD_LIBRARY(EvisionElas SHARED ${SRC_FILES} ${HEAD_FILES} ${INCLUDE_FILES})
+#生成静态lib
+ADD_LIBRARY(EvisionElas STATIC ${SRC_FILES} ${HEAD_FILES} ${INCLUDE_FILES})
 
 # Link your application with OpenCV libraries
 target_link_libraries(EvisionElas ${OpenCV_LIBS})

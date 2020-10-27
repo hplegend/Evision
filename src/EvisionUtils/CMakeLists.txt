@@ -55,7 +55,9 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_RELEASE ${PROJECT_SOURCE_DIR}/../install/bin/
 #set_target_properties(${TARGET_NAME} PROPERTIES DEBUG_POSTFIX "_d")
 
 #创建可执行文件工程
-add_library(EvisionUtils SHARED ${INCLUDE_FILES} ${SRC_FILES} ${HEAD_FILES} ${MOC_FILES} ${RES_FILES} ${UIC_FILES} ${QRC_FILES})
+# add_library(EvisionUtils SHARED ${INCLUDE_FILES} ${SRC_FILES} ${HEAD_FILES} ${MOC_FILES} ${RES_FILES} ${UIC_FILES} ${QRC_FILES})
+
+add_library(EvisionUtils STATIC ${INCLUDE_FILES} ${SRC_FILES} ${HEAD_FILES} ${MOC_FILES} ${RES_FILES} ${UIC_FILES} ${QRC_FILES})
 
 #链接Qt5依赖项
 target_link_libraries(EvisionUtils Qt5::Widgets Qt5::Core Qt5::Gui)

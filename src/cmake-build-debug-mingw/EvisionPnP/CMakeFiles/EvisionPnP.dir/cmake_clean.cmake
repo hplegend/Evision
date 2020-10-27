@@ -7,10 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/EvisionPnP.dir/PnPProblem.cpp.obj"
   "CMakeFiles/EvisionPnP.dir/RobustMatcher.cpp.obj"
   "CMakeFiles/EvisionPnP.dir/Utils.cpp.obj"
-  "D:/hplegend/codes/evision/Evision/install/bin/Debug/libEvisionPnP.pdb"
-  "D:/hplegend/codes/evision/Evision/install/bin/Debug/libEvisionPnP.dll"
-  "D:/hplegend/codes/evision/Evision/install/lib/Debug/libEvisionPnP.dll.a"
-  "D:/hplegend/codes/evision/Evision/install/bin/Debug/libEvisionPnP.dll.manifest"
+  "D:/hplegend/codes/evision/Evision/install/lib/Debug/libEvisionPnP.a"
+  "D:/hplegend/codes/evision/Evision/install/lib/Debug/libEvisionPnP.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

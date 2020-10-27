@@ -57,7 +57,9 @@ set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY_RELEASE ${PROJECT_SOURCE_DIR}/../install/lib/
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_DEBUG ${PROJECT_SOURCE_DIR}/../install/bin/Debug)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_RELEASE ${PROJECT_SOURCE_DIR}/../install/bin/Release)
 
-ADD_LIBRARY(EvisionObjDetection SHARED ${MOC_FILES} ${RES_FILES} ${UIC_FILES} ${QRC_FILES} ${INCLUDE_FILES} ${HEAD_FILES} ${SRC_FILES})
+#ADD_LIBRARY(EvisionObjDetection SHARED ${MOC_FILES} ${RES_FILES} ${UIC_FILES} ${QRC_FILES} ${INCLUDE_FILES} ${HEAD_FILES} ${SRC_FILES})
+
+ADD_LIBRARY(EvisionObjDetection STATIC ${MOC_FILES} ${RES_FILES} ${UIC_FILES} ${QRC_FILES} ${INCLUDE_FILES} ${HEAD_FILES} ${SRC_FILES})
 
 target_link_libraries(EvisionObjDetection ${OpenCV_LIBS})
 target_link_libraries(EvisionObjDetection Qt5::Widgets Qt5::Core Qt5::Gui Qt5::Multimedia Qt5::MultimediaWidgets)

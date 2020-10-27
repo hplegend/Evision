@@ -6,10 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/EvisionADCensus.dir/imageprocessor.cpp.obj"
   "CMakeFiles/EvisionADCensus.dir/scanlineoptimization.cpp.obj"
   "CMakeFiles/EvisionADCensus.dir/stereoprocessor.cpp.obj"
-  "D:/hplegend/codes/evision/Evision/install/bin/Debug/libEvisionADCensus.pdb"
-  "D:/hplegend/codes/evision/Evision/install/bin/Debug/libEvisionADCensus.dll"
-  "D:/hplegend/codes/evision/Evision/install/lib/Debug/libEvisionADCensus.dll.a"
-  "D:/hplegend/codes/evision/Evision/install/bin/Debug/libEvisionADCensus.dll.manifest"
+  "D:/hplegend/codes/evision/Evision/install/lib/Debug/libEvisionADCensus.a"
+  "D:/hplegend/codes/evision/Evision/install/lib/Debug/libEvisionADCensus.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

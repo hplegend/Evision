@@ -16,7 +16,7 @@
 #include "Mesh.h"
 #include "ModelRegistration.h"
 
-class _declspec(dllexport) PnPProblem
+class  PnPProblem
 {
 public:
     explicit PnPProblem(const double param[]);  // custom constructor

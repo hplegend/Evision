@@ -76,7 +76,11 @@ if(DarkNetExamples)
 list(APPEND BUILD_SRC ${EXAMPLES_FILES})
 endif()
 #SET_SOURCE_FILES_PROPERTIES(${BUILD_SRC} PROPERTIES LANGUAGE CXX )
-ADD_LIBRARY(EvisionObjDetectionEngine SHARED ${BUILD_SRC})
+#ADD_LIBRARY(EvisionObjDetectionEngine SHARED ${BUILD_SRC})
+
+ADD_LIBRARY(EvisionObjDetectionEngine STATIC ${BUILD_SRC})
+
+
 target_link_libraries(EvisionObjDetectionEngine ${OpenCV_LIBS})
 set_target_properties(EvisionObjDetectionEngine PROPERTIES CUDA_SEPARABLE_COMPILATION ON)
 #链接pthread

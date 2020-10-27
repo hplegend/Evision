@@ -54,7 +54,9 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_RELEASE ${PROJECT_SOURCE_DIR}/../install/bin/
 # set_target_properties(${TARGET_NAME} PROPERTIES DEBUG_POSTFIX "_d")
 
 #生成目标文件
-add_library(EvisionPolyTracker SHARED ${SRC_FILES} ${HEAD_FILES} ${MOC_FILES} ${RES_FILES} ${INCLUDE_FILES} ${UIC_FILES} ${QRC_FILES})
+#add_library(EvisionPolyTracker SHARED ${SRC_FILES} ${HEAD_FILES} ${MOC_FILES} ${RES_FILES} ${INCLUDE_FILES} ${UIC_FILES} ${QRC_FILES})
+add_library(EvisionPolyTracker STATIC ${SRC_FILES} ${HEAD_FILES} ${MOC_FILES} ${RES_FILES} ${INCLUDE_FILES} ${UIC_FILES} ${QRC_FILES})
+
 #链接Qt5依赖项
 target_link_libraries(EvisionPolyTracker Qt5::OpenGL Qt5::Widgets Qt5::Core Qt5::Gui)
 #链接OPENGL
