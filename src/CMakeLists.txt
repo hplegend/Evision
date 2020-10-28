@@ -4,7 +4,7 @@ cmake_minimum_required(VERSION 3.13)
 # 指定编译器
 #SET(CMAKE_CXX_COMPILER "D:\\Program Files (x86)\\CodeBlocks\\MinGW\\bin\\g++")
 #SET(CMAKE_C_COMPILER "D:\\Program Files (x86)\\CodeBlocks\\MinGW\\bin\\gcc")
-project(Evision CXX)
+project(Evision CXX) # 设置C++
 # 启动工程筛选器
 SET_PROPERTY(GLOBAL PROPERTY USE_FOLDERS ON)
 # 重命名CMake items 筛选器的名字,默认名为:CMakePredefinedTargets
@@ -12,8 +12,8 @@ set_property(GLOBAL PROPERTY PREDEFINED_TARGETS_FOLDER "_CMakeTargets")
 #set path  这里的opencv比较恶心。 vs的opencv是build， clion默认识别 .a的静态库。so，两者用的不一样
 # 这里真的是最最恶心的事情了
 set(OpenCV_DIR "D:\\hplegend\\OpenCV4\\opencv\\build")
-set(Qt5_DIR "D:\\hplegend\\QT\\5.13.2\\mingw73_64\\")
-SET(CMAKE_PREFIX_PATH "D:\\hplegend\\QTvs\\5.13.2\\msvc2017_64\\")
+set(Qt5_DIR "D:\\hplegend\\QTvs\\5.13.2\\msvc2017_64\\") # 这里设置QT
+SET(CMAKE_PREFIX_PATH "D:\\hplegend\\QTvs\\5.13.2\\msvc2017_64\\")  # 这里设置通用搜索路径，可以省略，如果前面指定了明确的路径
 #add_compile_options(-msse4.1)
 
 
