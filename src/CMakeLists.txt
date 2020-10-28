@@ -9,11 +9,12 @@ project(Evision CXX)
 SET_PROPERTY(GLOBAL PROPERTY USE_FOLDERS ON)
 # 重命名CMake items 筛选器的名字,默认名为:CMakePredefinedTargets
 set_property(GLOBAL PROPERTY PREDEFINED_TARGETS_FOLDER "_CMakeTargets")
-#set path
-set(OpenCV_DIR "D:/Libraries/OpenCV/4.1.2/build_vc16_withcuda/install")
+#set path  这里的opencv比较恶心。 vs的opencv是build， clion默认识别 .a的静态库。so，两者用的不一样
+# 这里真的是最最恶心的事情了
+set(OpenCV_DIR "D:\\hplegend\\OpenCV4\\opencv\\build")
 set(Qt5_DIR "D:\\hplegend\\QT\\5.13.2\\mingw73_64\\")
-SET(CMAKE_PREFIX_PATH "D:\\hplegend\\QT\\5.13.2\\mingw73_64\\")
-add_compile_options(-msse4.1)
+SET(CMAKE_PREFIX_PATH "D:\\hplegend\\QTvs\\5.13.2\\msvc2017_64\\")
+#add_compile_options(-msse4.1)
 
 
 if(WIN32)

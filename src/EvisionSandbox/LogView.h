@@ -1,8 +1,8 @@
 ﻿#pragma once
 
 #include <QWidget>
-#include "ui_LogView.h"
 #include "StdoutRedirector.h"
+#include <ui_LogView.h>
 
 class LogView : public QWidget
 {

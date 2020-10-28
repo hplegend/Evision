@@ -1,3 +1,3 @@
-"D:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\EvisionPnP.dir/objects.a
-C:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\EvisionPnP.dir/objects.a @CMakeFiles\EvisionPnP.dir\objects1.rsp
-C:\PROGRA~2\CODEBL~1\MinGW\bin\G__~1.EXE  -g  -shared -o D:\hplegend\codes\evision\Evision\install\bin\Debug\libEvisionPnP.dll -Wl,--out-implib,D:\hplegend\codes\evision\Evision\install\lib\Debug\libEvisionPnP.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\EvisionPnP.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\EvisionPnP.dir\linklibs.rsp
+"C:\Program Files\CMake\bin\cmake.exe" -E remove -f CMakeFiles\EvisionPnP.dir/objects.a
+D:\hplegend\QT\Tools\mingw730_64\bin\ar.exe cr CMakeFiles\EvisionPnP.dir/objects.a @CMakeFiles\EvisionPnP.dir\objects1.rsp
+D:\hplegend\QT\Tools\mingw730_64\bin\g++.exe  -g  -shared -o D:\hplegend\codes\evision\Evision\install\bin\Debug\libEvisionPnP.dll -Wl,--out-implib,D:\hplegend\codes\evision\Evision\install\lib\Debug\libEvisionPnP.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\EvisionPnP.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\EvisionPnP.dir\linklibs.rsp
